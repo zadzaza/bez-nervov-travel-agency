@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["newsletter"])) {
         $to = $email; // Отправить письмо на введенный адрес электронной почты
         $subject = 'Подписка на новостную рассылку';
         $message = "Спасибо за подписку на нашу рассылку!";
-        $headers = 'From: noreply@example.com' . "rn" .
+        $headers = 'From: maxawilow@gmail.com' . "rn" .
             'X-Mailer: PHP/' . phpversion();
         
         // Отправка письма
