@@ -204,7 +204,7 @@
 										</div>
 									</div>
 									<div class="tm-yellow-gradient-bg text-center">
-										<button type="submit" name="submit" class="tm-yellow-btn">Просмотреть</button>
+										<button class="tm-yellow-btn">Просмотреть</button>
 									</div>
 								</form>
 							</div>
@@ -563,8 +563,10 @@
             <img src = "img/PARYATANA-new.png">
 			<h3>Подпишитесь на новостную рассылку</h3>
 			<div class="newsletter">
-				<input type="text"name="newsletter"value="" placeholder="Введите ваш email">
-				<button type="submit" name="submit">Подписаться </button>
+				<form action="subscribe.php" method="post" class="newsletter">
+					<input type="text" name="newsletter" value="" placeholder="Введите ваш email">
+					<button type="submit" name="submit">Подписаться</button>
+				</form>
 			</div>
 			<div class="bottom-footer">
 				<p id = "customer">Права наших клиентов в приоритете</p><br>
